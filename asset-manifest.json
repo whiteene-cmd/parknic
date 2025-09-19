@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/parknic/static/css/main.53efcb06.css",
+    "main.js": "/parknic/static/js/main.7e08a5d0.js",
+    "static/js/453.c9f039cd.chunk.js": "/parknic/static/js/453.c9f039cd.chunk.js",
+    "static/media/mywalk_mov.mp4": "/parknic/static/media/mywalk_mov.f5f37f30c72ee781d04d.mp4",
+    "static/media/logo_walk.png": "/parknic/static/media/logo_walk.3f2ea732ed54f2d03992.png",
+    "static/media/revicons.eot": "/parknic/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/parknic/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/parknic/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/parknic/index.html",
+    "main.53efcb06.css.map": "/parknic/static/css/main.53efcb06.css.map",
+    "main.7e08a5d0.js.map": "/parknic/static/js/main.7e08a5d0.js.map",
+    "453.c9f039cd.chunk.js.map": "/parknic/static/js/453.c9f039cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53efcb06.css",
+    "static/js/main.7e08a5d0.js"
+  ]
+}
