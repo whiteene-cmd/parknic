@@ -6,7 +6,7 @@ const About = () => {
   const [all, setAll] = useState([]); //전체 데이터상태
   const [showAll, setShowAll] = useState(false); //더보기 버튼 클릭 상태에 따라 true/false
   useEffect(()=>{
-    fetch('/db.json')
+    fetch(`${process.env.PUBLIC_URL}/db.json`)
     .then(r=>r.json()) //json형태로 데이터 변환
     .then(data=>setAll(data.items || [])) //json에서 title로 되어있는 애들만 뽑아줘.
     .catch(console.error);

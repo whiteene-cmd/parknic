@@ -5,7 +5,7 @@ const AboutDetail = () => {
   const {id} =useParams(); //URL에서 id추출
   const [item, setitem] = useState(null);
   useEffect(()=>{
-      fetch('/db.json')
+      fetch(`${process.env.PUBLIC_URL}/db.json`)
       .then(r=>r.json()) //json형태로 데이터 변환
       .then((data)=> {
         const found = data.items.find((m)=> m.id === parseInt(id))
