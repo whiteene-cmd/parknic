@@ -6,7 +6,7 @@ import About from './pages/About'
 import Tips from './pages/Tips';
 import Map from './pages/Map';
 import AboutDetail from './pages/AboutDetail'
-import Mywalk from './pages/Mywalk';
+import Walkview from './pages/Walkview';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path='/about/:id' element={<AboutDetail/>}/>
           <Route path='/tips' element={<Tips/>}/>
           <Route path='/map' element={<Map/>}/>
-          <Route path='/mywalk' element={<Mywalk/>}/>
+          <Route path='/walkview' element={<Walkview/>}/>
         </Routes>
       </main>
       <footer className='site-footer'>
