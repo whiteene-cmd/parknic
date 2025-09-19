@@ -1,0 +1,71 @@
+.contents{
+    margin-top: 10px;
+}
+
+.running img, .rest img, .sidewalk img{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 15px;
+}
+.list h2, .list p{
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.list p{
+    letter-spacing: -1px;
+    font-size: 18px;
+}
+.list .runInfo{
+    padding: 15px;
+    text-align: left;
+    background-color: whitesmoke;
+}
+.list .runInfo .ping{
+    font-size: 18px;
+    font-weight: 600;
+}
+.list .runInfo ul>li>ul>li{
+    padding: 0 15px;
+    margin-bottom: 15px;
+
+}
+.list p:nth-child(3){
+    text-align: center;
+    font-family: 'GMarketSans';
+}
+.list .walkTips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.list .walkTips figure{
+    width: 104px; height: 104px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.list .walkTips figure img{
+    width: 60%; height: 60%;
+}
+.list .tipDesc{
+    padding: 0 25px;
+}
+.list .tipDesc div{
+    font-size: 16px;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+.list .restInfo{
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+

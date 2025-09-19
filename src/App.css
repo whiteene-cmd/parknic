@@ -1,38 +1,333 @@
-.App {
+:root{
+  --color-base: rgba(0,0,0,0.8);
+  --muted: #6b7280;
+  --brand1: #FAFDD6;
+  --brand2: #AED6CF;
+  --brand3: #647FBC;
+  --highright: #EB5B00;
+  --bg-base: #fff5e4;
+  --radius: 15px;
+  --shadow: 0 6px 20px rgba(0,0,0,0.8);
+  --font-h2: 'GMarketSans';
+  --white: #fff;
+}
+
+/* 공통 */
+.container{
+  max-width: 640px;
+  margin: 0 auto; 
+}
+
+/* header */
+header .logo{
+  font-family: var(--font-h2);
+  font-size: 26px;
+  text-align: center;
+  padding: 15px 0;
+}
+header .logo img{
+  max-width: 60px;
+  vertical-align: middle;
+}
+header .logo span:nth-child(2){
+  color: var(--muted);
+}
+header .logo span:last-child{
+  color: var(--highright);
+}
+header .gnb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  background-color: var(--muted);
+}
+header .gnb a{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+/* hero-slide */
+.hero-slide div{
+  height: 34vh;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.hero-slide div img{
+  max-width: 100%;
+}
+
+.intro-text{
+  padding: 0 15px;
+  line-height: 1.6;
+}
+.intro-text h2 span:first-child{
+  font-size: 24px;
+}
+.intro-text h2 span:last-child{
+  font-size: 20px;
+}
+.home-text{
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+/* recomcard */
+.recommend{
+  margin: 0 15px;
+}
+.recommend h2{
+  font-size: 20px;
+  font-family: var(--font-h2);
+  margin-bottom: 15px;
+}
+.recom-text{
+  padding-left: 20px;
+}
+.card{
+  border: 1px solid rgba(24, 24, 24, 0.3);
+  border-radius: var(--radius);
+  box-shadow: 1px 4px 8px rgba(24, 24, 24, 0.3);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.card h3{
+  line-height: 1.6;
+  font-size: 24px;
+}
+.card img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.card .text{
+  word-break: keep-all ;
+  margin-bottom: 30px;
+}
+.info{
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.info .category{
+  display: inline-block;
+  padding: 4px 10px;
+  margin-right: 5px;
+  border-radius: var(--radius);
+  background-color: var(--muted);
+  color: var(--white);
+  font-size: 14px;
+}
+.info .tag{
+  font-size: 14px;
+  color: #647FBC;
+}
+
+/* tips */
+.contents{
+ padding: 0 0 15px 0;
+}
+/* about */
+.btn-area{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-area button{
+  padding: 6px 8px;
+  background-color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.contents .titleArea{
+  padding: 20px;
+  line-height: 1.6;
+}
+.contents .titleArea h2 span{
+  color: var(--highright);
+}
+.contents .titleArea small{
+  font-size: 16px;
+}
+.contents .aboutList{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2열 */
+  gap: 15px;
+  margin: 10px;
+} 
+.aboutCard{
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 4px 4px rgba(24, 24, 24, 0.3);
+}
+.aboutCard figure img{
+  width: auto;     
+  max-height: 100%;    
+  max-width: 100%;  
+  display: block;
+}
+.aboutCard .aboutText{
+  padding: 10px;
+}
+.aboutCard .aboutText h3{
+  margin-bottom: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.aboutText .desc{
+  word-break: keep-all;
+}
+.aboutCard .aboutText .recom .badeg{
+  display: inline-block;
+  font-size: 14px;
+  font-family: var(--font-h2);
+  margin-top: 5px;
+  color: var(--white);
+  background-color: var(--highright);
+  border-radius: var(--radius);
+  padding: 3px 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* footer */
+footer{
+  background-color: var(--muted);
+  font-size: 18px;
+  padding: 30px;
+  color: var(--white);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+/* ===detail=== */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* detail */
+.shoes-wrap {
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.shoes-wrap header {
+    padding: 20px 8%;
+    background: var(--color-base);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoes-wrap header h1 {
+    font-family: var(--font-h2);
+    font-size: 24px;
+    color: var(--brand1);
+    font-weight: 600;
+}
+.shoes-wrap header .cart {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.shoes-wrap main {
+    margin: 40px 0;    
+}
+.shoes-wrap .shoes-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.shoes-wrap main figure {
+    width: 60%;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+.shoes-wrap img {
+    max-width: 100%;
+    box-shadow: #6b7280 2px 8px 8px;
+
+}
+.shoes-cont .shoes-info {
+    width: 40%;
+}
+.shoes-cont .shoes-info h2 {
+    font-family: var(--font-h2);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.shoes-cont .shoes-info .price {
+    font-size: 20px;
+    color: var(--highlight);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.action{
+    margin-bottom: 25px;
+}
+.btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--muted);
+    color: #fff;
+    margin-bottom: 30px;
+}
+.btn:hover{
+  background-color: rgba(107, 114, 128,0.5);
+}
+.btn.btnPrimary {
+    background: var(--highright);
+    margin-right: 5px;
+}
+.btn.btnPrimary:hover{
+  background: var(--highright);
+  filter: brightness(1.5);
+}
+button[role="tab"] {
+  font-size: 14px;
+    padding: 8px 16px;
+    background: #dfe2e2;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+button[role="tab"].active {
+    background: var(--brand2);
+    color: #fff;
+}
+.tab-panel {
+  margin-top: 10px;
+  display: inline-block;
+    line-height: 1.5;
+    border: rgba(107, 114, 128,0.3) 1px solid;
+    border-radius: var(--radius);
+}
+.tab-panel .bullets li{
+  position: relative;
+}
+.tab-panel .bullets li::before{
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  content: '';
+  display: block;
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background-color: var(--muted);
+}
+.tab-panel .review div{
+  margin-bottom: 15px;
+}
+.tab-panel .review p:first-child{
+  font-size: 14px;
+}
+.tab-panel .review p:last-child{
+  font-size: 18px;
+  font-weight: 600;
+}
+.tab-panel strong{
+  font-size: 18px;
+}
+.tab-panel .tab p{
+  margin-bottom: 15px;
 }

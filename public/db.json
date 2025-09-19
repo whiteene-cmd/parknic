@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "반포 한강공원 야경 코스",
+      "description": "달빛 아래 분수와 야경을 즐기는 강변 산책. 야간 피크닉에 최적.",
+      "imageUrl": "https://www.telltrip.com/wp-content/uploads/2025/04/Han-River-Park-3.jpg",
+      "category": "Riverside",
+      "recommended": true,
+      "tags": ["강변", "야경", "피크닉"]
+    },
+    {
+      "id": 2,
+      "title": "북서울꿈의숲 메인 트레일",
+      "description": "전망대와 잔디광장을 잇는 완만한 순환 동선.",
+      "imageUrl": "https://50plus.or.kr/upload/im/2021/11/7a9dcb6c-4812-44dc-b3c6-61bb2010a346.jpg",
+      "category": "Park",
+      "recommended": false,
+      "tags": ["가족", "넓은 길", "포토스폿"]
+    },
+    {
+      "id": 3,
+      "title": "서울숲 느티나무길",
+      "description": "사슴우리와 메타세쿼이아 라인을 잇는 대표 산책로.",
+      "imageUrl": "https://cdn.latimes.kr/news/photo/202311/51222_62761_77.jpg",
+      "category": "Park",
+      "recommended": true,
+      "tags": ["쉬움", "자전거 친화", "자연"]
+    },
+    {
+      "id": 4,
+      "title": "부암동 골목 산책",
+      "description": "한적한 카페와 아틀리에를 잇는 언덕 골목길.",
+      "imageUrl": "https://cdn.wolyo.co.kr/news/photo/201406/20971_17365_3730.jpg",
+      "category": "Neighborhood",
+      "recommended": false,
+      "tags": ["카페", "언덕", "조용함"]
+    },
+    {
+      "id": 5,
+      "title": "익선동 한옥길 라이트 코스",
+      "description": "한옥과 소품샵을 따라 걷는 레트로 감성 동선.",
+      "imageUrl": "https://mblogthumb-phinf.pstatic.net/MjAxOTA0MDZfNzgg/MDAxNTU0NDgxODU1ODM0.Nb1mJVihtIN1JPq1VOOOk4kCYXSwkQFlUEeZ53-Ov1wg.Hmm_bZHt_xsjhLB0mbm5UFxTlEiI5MKbS6hpFI-3VZkg.JPEG.happyrain012/902A6805.jpg?type=w800",
+      "category": "Historic",
+      "recommended": true,
+      "tags": ["레트로", "쇼핑", "포토스폿"]
+    },
+    {
+      "id": 6,
+      "title": "북촌 한옥마을 전망 라인",
+      "description": "가회동 돌계단과 한옥 지붕 뷰포인트를 잇는 코스.",
+      "imageUrl": "https://www.channeul.com/media/django-summernote/2024-04-15/65a938b9-415e-47f0-a108-3837cfd68fee.webp",
+      "category": "Historic",
+      "recommended": false,
+      "tags": ["문화", "전망 포인트", "아침"]
+    },
+    {
+      "id": 7,
+      "title": "남산 순환 산책로",
+      "description": "완만한 경사와 도심 파노라마가 장점인 대표 코스.",
+      "imageUrl": "https://mediahub.seoul.go.kr/uploads/2017/11/fdf468dbea8a351abd719fae32fa6b3d.jpg",
+      "category": "Mountain",
+      "recommended": true,
+      "tags": ["파노라마", "조깅", "그늘"]
+    },
+    {
+      "id": 8,
+      "title": "청계천 중앙로 코스",
+      "description": "분수와 다리를 잇는 도심 속 물길 산책.",
+      "imageUrl": "https://korean.visitseoul.net/data/kukudocs/seoul2133/20220519/202205191019556171.jpg",
+      "category": "Riverside",
+      "recommended": false,
+      "tags": ["도심", "저녁", "평지"]
+    },
+    {
+      "id": 9,
+      "title": "경의선숲길 연남 구간",
+      "description": "레일웨이 그린웨이와 브런치 스폿이 이어지는 산책.",
+      "imageUrl": "https://pimg.mk.co.kr/meet/neds/2015/07/image_readtop_2015_652248_14363226342016272.jpg",
+      "category": "Park",
+      "recommended": true,
+      "tags": ["브런치", "반려동물 동반", "스트리트 아트"]
+    },
+    {
+      "id": 10,
+      "title": "올림픽공원 들꽃마루",
+      "description": "계절별 꽃이 흐드러지는 평지 루트.",
+      "imageUrl": "https://www.seoulilbo.com/news/photo/202209/562197_360373_5423.jpg",
+      "category": "Park",
+      "recommended": false,
+      "tags": ["평지", "계절별", "가족"]
+    },
+    {
+      "id": 11,
+      "title": "아차산 숲길(초급)",
+      "description": "짧고 굵은 뷰포인트로 인기 높은 초급 등산/산책.",
+      "imageUrl": "https://mediahub.seoul.go.kr/uploads/mediahub/2022/02/TkJqQnOUpZQNdoXeqNYUpYRLDqZhjEhx.jpg",
+      "category": "Mountain",
+      "recommended": true,
+      "tags": ["짧은 코스", "전망 포인트", "운동"]
+    },
+    {
+      "id": 12,
+      "title": "하늘공원 억새길",
+      "description": "가을 억새 시즌의 드라마틱한 황금빛 루트.",
+      "imageUrl": "https://mediahub.seoul.go.kr/uploads/mediahub/2022/11/IGhkJRtKyjmeLsYpZtLGUqVFebmjhAfb.jpg",
+      "category": "Park",
+      "recommended": false,
+      "tags": ["노을", "계단", "계절별"]
+    },
+    {
+      "id": 13,
+      "title": "양재시민의숲 순환로",
+      "description": "직장인 점심 산책 최적, 그늘 많은 힐링 코스.",
+      "imageUrl": "https://cdn.crowdpic.net/detail-thumb/thumb_d_EE1103855FCF56EE8F9B99AD6AFC1407.jpg",
+      "category": "Park",
+      "recommended": true,
+      "tags": ["그늘", "쉬움", "직장인 친화"]
+    },
+    {
+      "id": 14,
+      "title": "석촌호수 외곽 라운드",
+      "description": "호수 수면을 끼고 도는 평탄한 순환 산책.",
+      "imageUrl": "https://www.songpa.go.kr/upload/DATA/resrce/062e5e6d-2a28-47a1-b14e-078d0efceaeeDE9G692G446G67E8.png",
+      "category": "Lake",
+      "recommended": false,
+      "tags": ["평지", "야간 러닝", "벚꽃"]
+    },
+    {
+      "id": 15,
+      "title": "송파둘레길 1구간",
+      "description": "수변과 숲길이 번갈아 나오는 장거리 산책 루트.",
+      "imageUrl": "https://mediahub.seoul.go.kr/wp-content/uploads/editor/images/000263/2.%EC%84%B1%EB%82%B4%EC%B2%9C_%EB%B2%9A%EA%BD%83%EA%B8%B8(%EC%82%AC%EC%A7%84_%EB%B0%95%EC%A2%85%EC%84%AD_%EC%8B%9C%EB%AF%BC%EA%B8%B0%EC%9E%90).jpg",
+      "category": "Riverside",
+      "recommended": true,
+      "tags": ["장거리 걷기", "다양한 지형", "자연"]
+    },
+    {
+      "id": 16,
+      "title": "응봉산 야경 산책",
+      "description": "해 질 녘 노을과 도심 야경을 한 번에 담는 코스.",
+      "imageUrl": "https://mblogthumb-phinf.pstatic.net/MjAyMzAxMTlfMTI5/MDAxNjc0MTA1NjA5OTMx.untWUECLTLJe1as2LdJ3c6f_yEgD0LeMZ7liQrEGdYcg.t3J1ALxzAKoIsvMJ2vyFVaAi0G0rnnvd-hoNRz3UyUQg.JPEG.ontheroad_gh/_MG_3987.JPG?type=w800",
+      "category": "Mountain",
+      "recommended": false,
+      "tags": ["노을", "사진 촬영", "계단"]
+    },
+    {
+      "id": 17,
+      "title": "노을공원 골든아워",
+      "description": "광활한 초지와 석양이 시그니처인 산책로.",
+      "imageUrl": "https://cdn.hsnews.co.kr/news/photo/202109/107496_59255_5232.gif",
+      "category": "Park",
+      "recommended": true,
+      "tags": ["골든 아워", "넓은 초지", "포토스폿"]
+    },
+    {
+      "id": 18,
+      "title": "광나루 한강공원 라이딩/워킹",
+      "description": "탁 트인 강변 직선로, 바람 맞으며 직진 본능.",
+      "imageUrl": "https://bbkk.kr/d/t/1/1100_DSC01418.jpg",
+      "category": "Riverside",
+      "recommended": false,
+      "tags": ["자전거", "바람 부는", "직선로"]
+    },
+    {
+      "id": 19,
+      "title": "창경궁 돌담길",
+      "description": "고궁 돌담을 따라 고즈넉하게 걷는 힐링 루트.",
+      "imageUrl": "https://mediahub.seoul.go.kr/uploads/mediahub/2022/08/tuqFmWoyENIjxzVYVvNlKoUdrYtwWtio.jpg",
+      "category": "Historic",
+      "recommended": true,
+      "tags": ["문화유산", "조용함", "아침"]
+    },
+    {
+      "id": 20,
+      "title": "덕수궁 돌담길",
+      "description": "분위기 갑의 도심 산책. 계절마다 다른 매력.",
+      "imageUrl": "https://t1.daumcdn.net/news/202211/22/kppa/20221122111022915lzbc.jpg",
+      "category": "Historic",
+      "recommended": false,
+      "tags": ["도시 산책", "데이트 코스", "가을"]
+    }
+  ]
+}
